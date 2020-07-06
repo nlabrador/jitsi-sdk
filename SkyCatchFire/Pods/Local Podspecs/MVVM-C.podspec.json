@@ -1,0 +1,34 @@
+{
+  "name": "MVVM-C",
+  "version": "0.0.2",
+  "summary": "MVVM-C Implementation",
+  "description": "A take on the MVVM-C architecture",
+  "homepage": "http://www.google.com",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "Michael Siapno": "siapno01@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "file:/Users/raymondbarrinuevo/Desktop/Ios_Project/SkycatchFire/MVVM-C/MVVM-C/"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.0"
+    ],
+    "RxSwift": [
+      "~> 5.1.0"
+    ],
+    "RxCocoa": [
+      "~> 5.1.0"
+    ]
+  },
+  "source_files": "MVVM-C/**/*.swift",
+  "exclude_files": "Classes/Exclude"
+}

@@ -1,0 +1,15 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_whitespace
+  - private_over_fileprivate
+line_length:
+  warning: 200
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
+function_body_length:
+  warning: 50
+  

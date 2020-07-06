@@ -1,0 +1,6 @@
+module Pods_MVVM_C {
+  umbrella header "Pods-MVVM-C-umbrella.h"
+
+  export *
+  module * { export * }
+}
